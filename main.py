@@ -8,9 +8,9 @@ def to_do_logic(param_json: dict, in_dir: str, out_dir: str):
     anything = param_json.get("anything", None)
     nonvalue = param_json.get("nonvalue", None)
     output: dict = {
-        "hoyoung": f"{hoyoung} first",
+        "hoyoung": f"{hoyoung} second",
         "tom": f"{tom} second",
-        "anything": f"{anything} third",
+        "anything": f"{anything} second",
     }
     return output
 
